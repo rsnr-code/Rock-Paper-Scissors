@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-TOP Project
+Testing out my JS skills
