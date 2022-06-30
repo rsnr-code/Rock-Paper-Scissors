@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    background: white;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    background-image: url("anya photos/Imperial-Scholars.jpg");
+}
+
+main {
+    margin: 100px;
+    border: 10px solid rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.5);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
