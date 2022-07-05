@@ -85,3 +85,27 @@ img:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
   
+@media (max-width: 550px) {
+  .title {
+    font-size: 18px;
+  }
+
+.scoresContainer {
+    font-size: 25px;
+  }
+
+img {
+  height: 80px;
+  margin-top: 20px;
+}
+
+.modal {
+    width: 95%;
+  }
+}
+
+#scoreMessage,
+#scoreInfo {
+  font-size: 15px;
+}
+
