@@ -1,31 +1,87 @@
 body {
-    margin: 0;
-    text-align: center;
-    background: white;
-    color: black;
-    font-family: 'DM Sans', sans-serif;
-    background-image: url("anya photos/Imperial-Scholars.jpg");
-    
+  margin: 0;
+  text-align: center;
+  color: black;
+  background-image: url("anya photos/Imperial-Scholars.jpg");
+  font-family: 'Press Start 2P', cursive;
 }
 
 main {
-    border: 13px solid rgba(255,255,255,.5);
-    background-color: rgba(255,255,255,.5);
-    margin: 30px;
-    height: 600px;
+  margin: 30px;
+  border: 10px solid rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.5);
+}
+
+.title {
+  margin: 50px 0 25px 0;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#scoreInfo {
+  margin-bottom: 25px;
+}
+
+#scoreMessage {
+  margin-bottom: 50px;
+}
+
+.scoresContainer {
+  font-size: 30px;
+}
+
+#playerScore {
+  margin-bottom: 15px;
 }
 
 img {
-    height: 350px;
+  height: 150px;
+  cursor: pointer;
+  transition: transform .5s;
+  margin: 30px;
 }
 
-#title {
-    font-size: 80px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+img:hover {
+  transform: scale(1.2);
 }
 
-#desc1, #desc2 {
-    font-weight: bold;
-    font-size: 20px;
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 210px;
+  padding: 30px;
+  border-radius: 50px;
+  text-align: center; 
+  transform: translate(-50%, -50%) scale(0);
+  transition: 300ms ease-in-out;
+  background-image: url("anya photos/anya-win.jpg");
+  background-size: 500px;
 }
+
+.modal.active {
+  transform: translate(-50%, -68%) scale(1.0);
+}
+  
+.modal-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 6px black;
+}
+  
+#playAgainBtn {
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+#playAgainBtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  

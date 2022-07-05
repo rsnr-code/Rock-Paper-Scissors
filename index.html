@@ -4,27 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anya's Mission</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" type="image/x-icon" href="anya photos/Stella_Star.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1 id="title">
-            Anya vs Damian
-        </h1>
-        <p><a href="game.html">
-            <img src="anya photos/Damian-And-Anya.jpg" alt="Damian-and-Anya">
-            </a></p>
-        <p id="desc1"> 
-            In order to receive a Stella Star, Anya must beat Damian in a game of Rock, Paper, Scissors.
-        </p>
-        <p id="desc2">
-            Click the picture to help Anya in her mission!
-        </p>
-        
-    </main>
+   <main>
+
+      <header class="title">
+        ROCK PAPER SCISSORS
+      </header>
+   
+      <div>
+        <h2 id="scoreInfo">Choose Anya's weapon!</h2>
+        <h3 id="scoreMessage">
+          First to score 5 points wins the game!
+        </h3>
+        <div class="scoresContainer">
+          <div>
+            <p id="playerScore">Anya: 0</p>
+          </div>
+          <div>
+            <p id="computerScore">Damian: 0</p>
+          </div>
+        </div>
+
+      <div>
+        <img id="rock" src="anya photos/rock.png" alt="rock">
+        <img id="paper" src="anya photos/paper.png" alt="paper">
+        <img id="scissors" src="anya photos/scissor.png" alt="scissors">
+      </div>
+
+      <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button id="playAgainBtn">Play again</button>
+      </div>
+
+  </main>
+   <script src="app.js"></script>
 </body>
 </html>
