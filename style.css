@@ -87,11 +87,11 @@ img:hover {
   
 @media (max-width: 550px) {
   .title {
-    font-size: 18px;
+    font-size: 30px;
   }
 
 .scoresContainer {
-    font-size: 25px;
+    font-size: 18px;
   }
 
 img {
